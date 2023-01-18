@@ -20,4 +20,4 @@ En esta sección se puede acezara a las tareas de clase y trabajos relacionados 
 ### Notas de Clase
 Aquí se realizaran las anotaciones en clase, así como dudas y preguntas que puedan surgir durante la presentación de catedra.
 
-.[Cuaderno de clase 1](clases/apuntes%20de%20clase%20Aprendizaje%20Automatico.tex)
+.[Cuaderno de clase 1](https://github.com/JuanJT117/Clase-de-aprendizaje-automatico/blob/main/clases/build/apuntes%20de%20clase%20Aprendizaje%20Automatico.pdf)
