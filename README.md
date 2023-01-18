@@ -4,6 +4,7 @@ Aquí se cargaran los archivos de la materia y todos los archivos referentes a l
 
 ### Tareas
 En esta sección encontraremos los archivos correspondientes a las tareas, que tendrán que ser cargadas a más tardar Domingo.
+
 .[Tarea 1: Presentación de datos con los que se trabajara](https://colab.research.google.com/drive/1oeGiGx0xcekc2Mz0lXzfDDChk65Sp1_5?usp=sharing)
 
 .[Tarea 2: Crea, modifica o elimina columnas filtra registros, crea sub conjuntos de datos. Crea grupos de datos.](Tareas/tarea1%20y%202.ipynb)
