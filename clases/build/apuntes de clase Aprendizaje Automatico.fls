@@ -879,12 +879,9 @@ INPUT .\lib\clase1.tex
 INPUT lib\clase1.tex
 INPUT .\lib\clase1.tex
 INPUT lib\clase1.tex
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 OUTPUT c:\Users\juanj\Workspace\Clase-de-aprendizaje-automatico\clases\build\apuntes de clase Aprendizaje Automatico.pdf
 INPUT C:\Users\juanj\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT c:\Users\juanj\Workspace\Clase-de-aprendizaje-automatico\clases\build\apuntes de clase Aprendizaje Automatico.aux
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
