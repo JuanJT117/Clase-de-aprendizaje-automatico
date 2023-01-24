@@ -15,7 +15,7 @@ En esta sección encontraremos los archivos correspondientes a las tareas, que t
 En esta sección se puede acezara a las tareas de clase y trabajos relacionados creados durante el curso.
 .[Tarea de Clase 1: 1.-Crear repositorio para el curso que contenga en el README.md | 2.-Una breve descripción de tu repositorio para este curso (primer commit) | 3.-Generar un archivo Jupyter/google colab para la primera tarea con un ejemplo de regresión lineal o correlación hecho en Python (segundo commit)](https://github.com/JuanJT117/Clase-de-aprendizaje-automatico)
 
-.[Tarea de clase 2: 1.-Cargar conjunto de datos mediante Pandas | 2.-Especificar el tipo de dato de cada columna | 3.-Si es necesario asignar columna de índice](Tareas%20en%20clase/clase_2_16_01_23.ipynb)
+.[Tarea de clase 2: 1.-Cargar conjunto de datos mediante Pandas | 2.-Especificar el tipo de dato de cada columna | 3.-Si es necesario asignar columna de índice](Tareas/tarea1%20y%202.ipynb)
 
 ### Notas de Clase
 Aquí se realizaran las anotaciones en clase, así como dudas y preguntas que puedan surgir durante la presentación de catedra.
