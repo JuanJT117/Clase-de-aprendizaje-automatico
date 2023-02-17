@@ -1,0 +1,6 @@
+PWD c:/Users/juanj/Workspace/Clase-de-aprendizaje-automatico/Articulo
+INPUT c:/texlive/2022/texmf.cnf
+INPUT c:/texlive/2022/texmf-dist/web2c/texmf.cnf
+INPUT c:/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT c:/Users/juanj/Workspace/Clase-de-aprendizaje-automatico/Articulo/Articulo Resisitividades.tex
+OUTPUT build/Articulo Resisitividades.log
