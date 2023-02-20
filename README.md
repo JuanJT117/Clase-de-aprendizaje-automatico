@@ -1,23 +1,24 @@
 # Clase : Aprendizaje-Automático
-## Maestría en Ciencia de Datos
-Aquí se cargaran los archivos de la materia y todos los archivos referentes a la materia
+# Maestría en Ciencia de Datos
+Aquí se cargaran los archivos de taras al igual que el avance del Articulo.
 
-### Tareas
-En esta sección encontraremos los archivos correspondientes a las tareas, que tendrán que ser cargadas a más tardar Domingo.
+## Proyecto: Articulo
+En esta sección se vera el avance del proyecto redactado en $LaTex$, cuyo avance quedara como evidencia en los PDF compilados correspondientes al avance del proyecto
 
-.[Tarea 1: Presentación de datos con los que se trabajara](https://colab.research.google.com/drive/1oeGiGx0xcekc2Mz0lXzfDDChk65Sp1_5?usp=sharing)
+.[PDF --> correspondiente a ultima compilación](https://github.com/JuanJT117/Clase-de-aprendizaje-automatico/blob/main/Articulo/version%201%20-%20AR.pdf)
 
-.[Tarea 2: Crea, modifica o elimina columnas filtra registros, crea sub conjuntos de datos. Crea grupos de datos.](Tareas/tarea1%20y%202.ipynb)
+.[Articulo - objetivos, hipótesis y justificación por definir](https://github.com/JuanJT117/Clase-de-aprendizaje-automatico/tree/main/Articulo)
 
-.[Tarea 3: ]
+## Tareas
+En esta sección encontraremos los archivos correspondientes a las tareas, las cuales corresponderán a la BD del proyecto.
 
-### Tareas de clase
-En esta sección se puede acezara a las tareas de clase y trabajos relacionados creados durante el curso.
-.[Tarea de Clase 1: 1.-Crear repositorio para el curso que contenga en el README.md | 2.-Una breve descripción de tu repositorio para este curso (primer commit) | 3.-Generar un archivo Jupyter/google colab para la primera tarea con un ejemplo de regresión lineal o correlación hecho en Python (segundo commit)](https://github.com/JuanJT117/Clase-de-aprendizaje-automatico)
+.[Tareas: en este cuaderno se presentan las tareas realizadas con la base de datos de prueva ](https://colab.research.google.com/drive/1oeGiGx0xcekc2Mz0lXzfDDChk65Sp1_5?usp=sharing)
 
-.[Tarea de clase 2: 1.-Cargar conjunto de datos mediante Pandas | 2.-Especificar el tipo de dato de cada columna | 3.-Si es necesario asignar columna de índice](Tareas/tarea1%20y%202.ipynb)
+## Tareas de clase
+En esta sección se podrá observar el trabajo y tareas realizado durante clase, donde se empleara la base de datos de Airbnb. esto se ejecutara desde un mismo script el cual estará dividido por día de sesión de clase.
+.[Tareas en Clase y apuntes en general](https://github.com/JuanJT117/Clase-de-aprendizaje-automatico/tree/main/Tareas%20en%20clase)
 
 ### Notas de Clase
 Aquí se realizaran las anotaciones en clase, así como dudas y preguntas que puedan surgir durante la presentación de catedra.
 
-.[Cuaderno de clase 1](https://github.com/JuanJT117/Clase-de-aprendizaje-automatico/blob/ffebd6107df46d11cf08a9f7425c4162a975e178/clases/build/apuntes%20de%20clase%20Aprendizaje%20Automatico.pdf)
+.[Cuaderno de clase](https://github.com/JuanJT117/Clase-de-aprendizaje-automatico/blob/ffebd6107df46d11cf08a9f7425c4162a975e178/clases/build/apuntes%20de%20clase%20Aprendizaje%20Automatico.pdf)
