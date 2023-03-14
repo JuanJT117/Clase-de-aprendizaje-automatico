@@ -12,11 +12,11 @@ En esta sección se vera el avance del proyecto redactado en $LaTex$, cuyo avanc
 ## Tareas
 En esta sección encontraremos los archivos correspondientes a las tareas, las cuales corresponderán a la BD del proyecto.
 
-.[Tareas: en este cuaderno se presentan las tareas realizadas con la base de datos de prueva ](https://colab.research.google.com/drive/1oeGiGx0xcekc2Mz0lXzfDDChk65Sp1_5?usp=sharing)
+.[Tareas: en este cuaderno se presentan las tareas realizadas con la base de datos de prueva ](https://github.com/JuanJT117/Clase-de-aprendizaje-automatico/blob/0c95a48387c536b0c3eb499f507804aa9d313b28/Tareas/Tarea_Aprendizaje_Automatico.ipynb)
 
 ## Tareas de clase
 En esta sección se podrá observar el trabajo y tareas realizado durante clase, donde se empleara la base de datos de Airbnb. esto se ejecutara desde un mismo script el cual estará dividido por día de sesión de clase.
-.[Tareas en Clase y apuntes en general](https://github.com/JuanJT117/Clase-de-aprendizaje-automatico/tree/main/Tareas%20en%20clase)
+.[Tareas en Clase y apuntes en general](https://github.com/JuanJT117/Clase-de-aprendizaje-automatico/blob/0c95a48387c536b0c3eb499f507804aa9d313b28/Tareas%20en%20clase/Tareas_en_clase.ipynb)
 
 ### Notas de Clase
 Aquí se realizaran las anotaciones en clase, así como dudas y preguntas que puedan surgir durante la presentación de catedra.
