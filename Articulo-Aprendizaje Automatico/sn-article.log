@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.26)  26 MAR 2023 19:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.26)  27 MAR 2023 09:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -719,176 +719,156 @@ Package hyperref Info: Link coloring ON on input line 99.
 LaTeX Info: Redefining \. on input line 99.
 LaTeX Info: Redefining \% on input line 99.
 \c@lstlisting=\count339
-LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 146.
+LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 147.
 
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <8.43146> not available
-(Font)              size <8> substituted on input line 146.
+(Font)              size <8> substituted on input line 147.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <8.43146> not available
-(Font)              size <8> substituted on input line 146.
+(Font)              size <8> substituted on input line 147.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <8.43146> not available
-(Font)              size <8> substituted on input line 146.
+(Font)              size <8> substituted on input line 147.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 146
+LaTeX Font Info:    Trying to load font information for U+msa on input line 147
 .
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 146
+LaTeX Font Info:    Trying to load font information for U+msb on input line 147
 .
 
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 14
-6.
+7.
 
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <8.43146> not available
-(Font)              size <8> substituted on input line 146.
+(Font)              size <8> substituted on input line 147.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <8.43146> not available
-(Font)              size <8> substituted on input line 146.
+(Font)              size <8> substituted on input line 147.
 
 LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 14
-6.
+7.
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <5.52061> not available
-(Font)              size <6> substituted on input line 146.
+(Font)              size <6> substituted on input line 147.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <5.52061> not available
-(Font)              size <6> substituted on input line 146.
+(Font)              size <6> substituted on input line 147.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <5.52061> not available
-(Font)              size <6> substituted on input line 146.
+(Font)              size <6> substituted on input line 147.
 
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <5.52061> not available
-(Font)              size <6> substituted on input line 146.
-
-LaTeX Font Info:    Calculating math sizes for size <9.03374> on input line 146
-.
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <4.51686> not available
-(Font)              size <5> substituted on input line 146.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <4.51686> not available
-(Font)              size <5> substituted on input line 146.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <4.51686> not available
-(Font)              size <5> substituted on input line 146.
-
-
-LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <4.51686> not available
-(Font)              size <5> substituted on input line 146.
+(Font)              size <6> substituted on input line 147.
 
 LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 14
-6.
+7.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1
 
 {C:/Users/juanj/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
 LaTeX Font Info:    Trying to load font information for OMS+cmss on input line 
-212.
-LaTeX Font Info:    No file OMScmss.fd. on input line 212.
+213.
+LaTeX Font Info:    No file OMScmss.fd. on input line 213.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbraceleft' on input line 212.
+(Font)              for symbol `textbraceleft' on input line 213.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 219.
-
+put line 220.
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 2
-54.
+55.
 
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
 File: omscmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 254.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 255.
 
-Overfull \hbox (7.55843pt too wide) in paragraph at lines 248--260
+Overfull \hbox (7.55843pt too wide) in paragraph at lines 249--261
 []$[]$ 
  []
 
 
-Package natbib Warning: Citation `bib1' on page 3 undefined on input line 265.
+Package natbib Warning: Citation `bib1' on page 3 undefined on input line 266.
 
 
-Package natbib Warning: Citation `bib2' on page 3 undefined on input line 265.
-
-
-Package natbib Warning: Citation `bib3' on page 3 undefined on input line 267.
-
-
-Package natbib Warning: Citation `bib4' on page 3 undefined on input line 267.
-
-
-Package natbib Warning: Citation `bib5' on page 3 undefined on input line 267.
-
-
-Package natbib Warning: Citation `bib6' on page 3 undefined on input line 267.
-
-
-Package natbib Warning: Citation `bib7' on page 3 undefined on input line 267.
-
-
-Package natbib Warning: Citation `bib8' on page 3 undefined on input line 267.
-
-
-Package natbib Warning: Citation `bib9' on page 3 undefined on input line 267.
-
-
-Package natbib Warning: Citation `bib10' on page 3 undefined on input line 267.
-
-
-
-Package natbib Warning: Citation `bib11' on page 3 undefined on input line 267.
-
-
-
-Package natbib Warning: Citation `bib12' on page 3 undefined on input line 267.
-
-
-
-Package natbib Warning: Citation `bib13' on page 3 undefined on input line 267.
-
+Package natbib Warning: Citation `bib2' on page 3 undefined on input line 266.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
 
+Package natbib Warning: Citation `bib3' on page 4 undefined on input line 268.
+
+
+Package natbib Warning: Citation `bib4' on page 4 undefined on input line 268.
+
+
+Package natbib Warning: Citation `bib5' on page 4 undefined on input line 268.
+
+
+Package natbib Warning: Citation `bib6' on page 4 undefined on input line 268.
+
+
+Package natbib Warning: Citation `bib7' on page 4 undefined on input line 268.
+
+
+Package natbib Warning: Citation `bib8' on page 4 undefined on input line 268.
+
+
+Package natbib Warning: Citation `bib9' on page 4 undefined on input line 268.
+
+
+Package natbib Warning: Citation `bib10' on page 4 undefined on input line 268.
+
+
+
+Package natbib Warning: Citation `bib11' on page 4 undefined on input line 268.
+
+
+
+Package natbib Warning: Citation `bib12' on page 4 undefined on input line 268.
+
+
+
+Package natbib Warning: Citation `bib13' on page 4 undefined on input line 268.
+
+
+
 Package hyperref Warning: Difference (4) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 284.
+(hyperref)                than one, level fixed on input line 285.
 
 
 Package hyperref Warning: Difference (3) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 292.
+(hyperref)                than one, level fixed on input line 293.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -910,7 +890,7 @@ LaTeX Info: Redefining \% on input line 24.
 )
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 0.48314pt have occurred.
+(Font)              up to 0.47939pt have occurred.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -919,13 +899,13 @@ Package rerunfilecheck Info: File `sn-article.out' has not changed.
 (rerunfilecheck)             Checksum: AE0B126687AE1E456AC9B3AB567D6AB0;1969.
  ) 
 Here is how much of TeX's memory you used:
- 16194 strings out of 476334
- 252776 string characters out of 5787971
- 1870382 words of memory out of 5000000
- 36286 multiletter control sequences out of 15000+600000
- 532569 words of font info for 116 fonts, out of 8000000 for 9000
+ 16163 strings out of 476334
+ 252292 string characters out of 5787971
+ 1872382 words of memory out of 5000000
+ 36260 multiletter control sequences out of 15000+600000
+ 529116 words of font info for 102 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
- 90i,8n,90p,750b,1932s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,8n,90p,776b,1926s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx10.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmbx12.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/p
@@ -948,7 +928,7 @@ Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/juanj/
 AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Use
 rs/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pf
 b>
-Output written on sn-article.pdf (5 pages, 264501 bytes).
+Output written on sn-article.pdf (5 pages, 265519 bytes).
 PDF statistics:
  219 PDF objects out of 1000 (max. 8388607)
  46 named destinations out of 1000 (max. 500000)
