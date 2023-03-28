@@ -1,18 +1,18 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.26)  27 MAR 2023 09:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.3.23)  27 MAR 2023 20:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./sn-article.tex
 (sn-article.tex
-LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-02-22> (sn-jnl.cls
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-09-28> (sn-jnl.cls
 Document Class: sn-jnl 2019/11/18 v0.1: An authoring template for Springer Jour
 nal articles
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
-Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/base\fleqn.clo
 File: fleqn.clo 2016/12/29 v1.2b Standard LaTeX option (flush left equations)
-\mathindent=\skip48
+\mathindent=\skip47
 Applying: [2015/01/01] Make \[ robust on input line 50.
 LaTeX Info: Redefining \[ on input line 51.
 Already applied: [0000/00/00] Make \[ robust on input line 62.
@@ -21,7 +21,7 @@ LaTeX Info: Redefining \] on input line 75.
 Already applied: [0000/00/00] Make \] robust on input line 83.
 )
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
-File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@section=\count186
@@ -31,9 +31,9 @@ File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 \c@subparagraph=\count190
 \c@figure=\count191
 \c@table=\count192
-\abovecaptionskip=\skip49
-\belowcaptionskip=\skip50
-\bibindent=\dimen140
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen138
 )
 LaTeX Info: Redefining \rm on input line 144.
 LaTeX Info: Redefining \sf on input line 145.
@@ -45,7 +45,7 @@ LaTeX Info: Redefining \sc on input line 150.
 LaTeX Info: Redefining \cal on input line 151.
 LaTeX Info: Redefining \mit on input line 152.
 LaTeX Info: Redefining \textsubscript on input line 210.
-\columnhsize=\skip51
+\columnhsize=\skip50
 
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -63,14 +63,14 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@cnth=\count193
 \Gm@cntv=\count194
 \c@Gm@tempcnt=\count195
-\Gm@bindingoffset=\dimen141
-\Gm@wd@mp=\dimen142
-\Gm@odd@mp=\dimen143
-\Gm@even@mp=\dimen144
-\Gm@layoutwidth=\dimen145
-\Gm@layoutheight=\dimen146
-\Gm@layouthoffset=\dimen147
-\Gm@layoutvoffset=\dimen148
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
 \Gm@dimlist=\toks17
 
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
@@ -83,7 +83,7 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \addcount=\count267
 \PacsCount=\count268
 \PacsTmpCnt=\count269
-\FMremarkdim=\dimen149
+\FMremarkdim=\dimen147
 \fmremarkbox=\box52
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/sttools\cuted.sty
 Package: cuted 2021/10/04 v2.0 Mixing onecolumn and twocolumn modes
@@ -97,35 +97,35 @@ Package: cuted 2021/10/04 v2.0 Mixing onecolumn and twocolumn modes
 \@viper=\box57
 \cuted@@varbox@a=\box58
 \cuted@@varbox@c=\box59
-\cuted@@tempdim@spread=\dimen150
-\cuted@@tempdim@a=\dimen151
-\cuted@@tempdim@b=\dimen152
-\ht@hold@viper=\dimen153
-\ht@viper=\dimen154
-\var@@pagediscards@ht=\dimen155
-\stripsep=\skip52
+\cuted@@tempdim@spread=\dimen148
+\cuted@@tempdim@a=\dimen149
+\cuted@@tempdim@b=\dimen150
+\ht@hold@viper=\dimen151
+\ht@viper=\dimen152
+\var@@pagediscards@ht=\dimen153
+\stripsep=\skip51
 \viper@penalty=\count270
 )
-\firstpagehtcheck=\dimen156
-\labelwidthi=\dimen157
-\labelwidthii=\dimen158
-\labelwidthiii=\dimen159
-\labelwidthiv=\dimen160
-\figwidth=\dimen161
-\figheight=\dimen162
-\sidecapwidth=\dimen163
-\wrapcapline=\dimen164
-\totalwrapline=\dimen165
-\wraptotline=\dimen166
+\firstpagehtcheck=\dimen154
+\labelwidthi=\dimen155
+\labelwidthii=\dimen156
+\labelwidthiii=\dimen157
+\labelwidthiv=\dimen158
+\figwidth=\dimen159
+\figheight=\dimen160
+\sidecapwidth=\dimen161
+\wrapcapline=\dimen162
+\totalwrapline=\dimen163
+\wraptotline=\dimen164
 \figurebox=\box60
 \wrapfigcapbox=\box61
 \figcapbox=\box62
 \capbox=\box63
-\headwidthskip=\skip53
+\headwidthskip=\skip52
 \tabcapbox=\box64
 \temptbox=\box65
-\tempdime=\dimen167
-\tabhtdime=\dimen168
+\tempdime=\dimen165
+\tabhtdime=\dimen166
 
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
@@ -147,6 +147,8 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
 
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+\stockwidth=\dimen167
+\stockheight=\dimen168
 ))
 \Gin@req@height=\dimen169
 \Gin@req@width=\dimen170
@@ -154,8 +156,8 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
 \c@r@tfl@t=\count271
-\rotFPtop=\skip54
-\rotFPbot=\skip55
+\rotFPtop=\skip53
+\rotFPbot=\skip54
 \rot@float@box=\box66
 \rot@mess@toks=\toks21
 )
@@ -171,7 +173,7 @@ Package: appendix 2020/02/08 v1.2c extra appendix facilities
 \c@@ppsaveapp=\count274
 )
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
+Package: hyperref 2022-09-22 v7.00t Hypertext links for LaTeX
 
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
@@ -228,7 +230,7 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 \Hy@linkcounter=\count276
 \Hy@pagecounter=\count277
  (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2022-09-22 v7.00t Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 ) (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
@@ -239,24 +241,24 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count278
  (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2022-09-22 v7.00t Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Hyper figures OFF on input line 4177.
-Package hyperref Info: Link nesting OFF on input line 4182.
-Package hyperref Info: Hyper index ON on input line 4185.
-Package hyperref Info: Plain pages OFF on input line 4192.
-Package hyperref Info: Backreferencing OFF on input line 4197.
+Package hyperref Info: Hyper figures OFF on input line 4162.
+Package hyperref Info: Link nesting OFF on input line 4167.
+Package hyperref Info: Hyper index ON on input line 4170.
+Package hyperref Info: Plain pages OFF on input line 4177.
+Package hyperref Info: Backreferencing OFF on input line 4182.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4425.
+Package hyperref Info: Bookmarks ON on input line 4410.
 \c@Hy@tempcnt=\count279
 
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4763.
+LaTeX Info: Redefining \url on input line 4748.
 \XeTeXLinkMargin=\dimen172
 
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
@@ -270,13 +272,13 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 \Fld@menulength=\count280
 \Field@Width=\dimen173
 \Fld@charsize=\dimen174
-Package hyperref Info: Hyper figures OFF on input line 6042.
-Package hyperref Info: Link nesting OFF on input line 6047.
-Package hyperref Info: Hyper index ON on input line 6050.
-Package hyperref Info: backreferencing OFF on input line 6057.
-Package hyperref Info: Link coloring OFF on input line 6062.
-Package hyperref Info: Link coloring with OCG OFF on input line 6067.
-Package hyperref Info: PDF/A mode OFF on input line 6072.
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
 
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
@@ -288,7 +290,7 @@ package with kernel methods
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2023-02-07 v7.00v Hyperref driver for pdfTeX
+File: hpdftex.def 2022-09-22 v7.00t Hyperref driver for pdfTeX
 
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
@@ -309,7 +311,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip56
+\Hy@SectionHShift=\skip55
 )
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/breakurl\breakurl.sty
 Package: breakurl 2013/04/10 v1.40 Breakable hyperref URLs
@@ -350,18 +352,18 @@ Package: wrapfig 2003/01/31  v 3.6
 )
 \wraplines=\count288
 \@authorfigbox=\box69
-\@authorfigboxdim=\skip57
-\biofigadjskip=\skip58
+\@authorfigboxdim=\skip56
+\biofigadjskip=\skip57
 
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip59
-\bibsep=\skip60
+\bibhang=\skip58
+\bibsep=\skip59
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count289
 ))
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2023/02/13 3.86 The Babel package
+Package: babel 2022/10/04 3.81 The Babel package
 \babel@savecnt=\count290
 \U@D=\dimen177
 \l@unhyphenated=\language79
@@ -397,14 +399,14 @@ LaTeX Info: Redefining \% on input line 47.
 
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip61
+\multirow@colwidth=\skip60
 \multirow@cntb=\count293
-\multirow@dima=\skip62
+\multirow@dima=\skip61
 \bigstrutjot=\dimen178
 )
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
-\@mathmargin=\skip63
+\@mathmargin=\skip62
 
 For additional information on amsmath, use the `?' option.
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
@@ -464,8 +466,8 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \totwidth@=\dimen186
 \lineht@=\dimen187
 \@envbody=\toks29
-\multlinegap=\skip64
-\multlinetaggap=\skip65
+\multlinegap=\skip63
+\multlinetaggap=\skip64
 \mathdisplay@stack=\toks30
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
@@ -487,9 +489,9 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headfont=\toks33
 \thm@notefont=\toks34
 \thm@headpunct=\toks35
-\thm@preskip=\skip66
-\thm@postskip=\skip67
-\thm@headsep=\skip68
+\thm@preskip=\skip65
+\thm@postskip=\skip66
+\thm@headsep=\skip67
 \dth@everypar=\toks36
 )
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\mathrsfs.sty
@@ -566,13 +568,13 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 \c@ALG@line=\count312
 \c@ALG@rem=\count313
 \c@ALG@nested=\count314
-\ALG@tlm=\skip69
-\ALG@thistlm=\skip70
+\ALG@tlm=\skip68
+\ALG@thistlm=\skip69
 \c@ALG@Lnr=\count315
 \c@ALG@blocknr=\count316
 \c@ALG@storecount=\count317
 \c@ALG@tmpcounter=\count318
-\ALG@tmplength=\skip71
+\ALG@tmplength=\skip70
 )
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algpseudoc
 ode.sty
@@ -593,15 +595,15 @@ Document Style - pseudocode environments for use with the `algorithmicx' style
 \lst@lineno=\count324
 \lst@maxwidth=\dimen261
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
-File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 \c@lstnumber=\count325
 \lst@skipnumbers=\count326
 \lst@framebox=\box75
 )
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
-File: listings.cfg 2023/02/27 1.9 listings configuration
+File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
-Package: listings 2023/02/27 1.9 (Carsten Heinz)
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
 
 Package amsthm Warning: Unknown theoremstyle `thmstyleone' on input line 82.
 
@@ -618,7 +620,7 @@ Package amsthm Warning: Unknown theoremstyle `thmstylethree' on input line 93.
 
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
-File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count331
 \l__pdf_internal_box=\box76
 ) (sn-article.aux
@@ -789,91 +791,96 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
 LaTeX Font Info:    Trying to load font information for OMS+cmss on input line 
-213.
-LaTeX Font Info:    No file OMScmss.fd. on input line 213.
+246.
+LaTeX Font Info:    No file OMScmss.fd. on input line 246.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbraceleft' on input line 213.
-
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 220.
-(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2023/02/27 1.9 listings language file
-)
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 2
-55.
-
-(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
-File: omscmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 255.
-
-Overfull \hbox (7.55843pt too wide) in paragraph at lines 249--261
-[]$[]$ 
- []
-
-
-Package natbib Warning: Citation `bib1' on page 3 undefined on input line 266.
-
-
-Package natbib Warning: Citation `bib2' on page 3 undefined on input line 266.
+(Font)              for symbol `textbraceleft' on input line 246.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 253.
 
-Package natbib Warning: Citation `bib3' on page 4 undefined on input line 268.
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 2
+88.
 
+(C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
+File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 288.
 
-Package natbib Warning: Citation `bib4' on page 4 undefined on input line 268.
-
-
-Package natbib Warning: Citation `bib5' on page 4 undefined on input line 268.
-
-
-Package natbib Warning: Citation `bib6' on page 4 undefined on input line 268.
-
-
-Package natbib Warning: Citation `bib7' on page 4 undefined on input line 268.
-
-
-Package natbib Warning: Citation `bib8' on page 4 undefined on input line 268.
-
-
-Package natbib Warning: Citation `bib9' on page 4 undefined on input line 268.
+Overfull \hbox (7.55843pt too wide) in paragraph at lines 282--294
+[]$[]$ 
+ []
 
 
-Package natbib Warning: Citation `bib10' on page 4 undefined on input line 268.
+Package natbib Warning: Citation `bib1' on page 4 undefined on input line 299.
+
+
+Package natbib Warning: Citation `bib2' on page 4 undefined on input line 299.
+
+
+Package natbib Warning: Citation `bib3' on page 4 undefined on input line 301.
+
+
+Package natbib Warning: Citation `bib4' on page 4 undefined on input line 301.
+
+
+Package natbib Warning: Citation `bib5' on page 4 undefined on input line 301.
+
+
+Package natbib Warning: Citation `bib6' on page 4 undefined on input line 301.
+
+
+Package natbib Warning: Citation `bib7' on page 4 undefined on input line 301.
+
+
+Package natbib Warning: Citation `bib8' on page 4 undefined on input line 301.
+
+
+Package natbib Warning: Citation `bib9' on page 4 undefined on input line 301.
+
+
+Package natbib Warning: Citation `bib10' on page 4 undefined on input line 301.
 
 
 
-Package natbib Warning: Citation `bib11' on page 4 undefined on input line 268.
+Package natbib Warning: Citation `bib11' on page 4 undefined on input line 301.
 
 
 
-Package natbib Warning: Citation `bib12' on page 4 undefined on input line 268.
+Package natbib Warning: Citation `bib12' on page 4 undefined on input line 301.
 
 
 
-Package natbib Warning: Citation `bib13' on page 4 undefined on input line 268.
+Package natbib Warning: Citation `bib13' on page 4 undefined on input line 301.
 
-
-
-Package hyperref Warning: Difference (4) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 285.
-
-
-Package hyperref Warning: Difference (3) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 293.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4]
+
+Package hyperref Warning: Difference (4) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 318.
+
+
+Package hyperref Warning: Difference (3) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 326.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
 (sn-article.bbl)
 
 Package natbib Warning: There were undefined citations.
@@ -881,7 +888,7 @@ Package natbib Warning: There were undefined citations.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5]
+ [6]
 (sn-article.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
@@ -896,16 +903,16 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `sn-article.out' has not changed.
-(rerunfilecheck)             Checksum: AE0B126687AE1E456AC9B3AB567D6AB0;1969.
+(rerunfilecheck)             Checksum: 8C249C9B541499C314EFAF22980895BD;1881.
  ) 
 Here is how much of TeX's memory you used:
- 16163 strings out of 476334
- 252292 string characters out of 5787971
- 1872382 words of memory out of 5000000
- 36260 multiletter control sequences out of 15000+600000
- 529116 words of font info for 102 fonts, out of 8000000 for 9000
+ 16166 strings out of 475385
+ 252214 string characters out of 2776907
+ 800873 words of memory out of 3000000
+ 37214 multiletter control sequences out of 15000+600000
+ 486088 words of font info for 98 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
- 90i,8n,90p,776b,1926s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,8n,91p,1039b,1661s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx10.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmbx12.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/p
@@ -928,9 +935,9 @@ Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/juanj/
 AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Use
 rs/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pf
 b>
-Output written on sn-article.pdf (5 pages, 265519 bytes).
+Output written on sn-article.pdf (6 pages, 271251 bytes).
 PDF statistics:
  219 PDF objects out of 1000 (max. 8388607)
  46 named destinations out of 1000 (max. 500000)
- 113 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 105 words of extra memory for PDF output out of 10000 (max. 10000000)
 
