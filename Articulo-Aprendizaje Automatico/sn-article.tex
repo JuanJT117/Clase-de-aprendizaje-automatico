@@ -146,7 +146,7 @@
 
 \maketitle
 
-\section{Introducci\'on}\label{sec1}
+\section{Introducción}\label{sec1}
 
 En una campaña de exploración geofísica enfocada en recursos geohídricas se pueden emplear distintos métodos para determinar la existencia, profundidad y distribución del nivel freático de un acuífero, como son método de refracción sísmica, GPR (Ground Penetrating Radar) y métodos geoeléctricos, en este trabajo nos enfocaremos en la aplicación del método geoeléctrico en la modalidad de Sondeo Eléctrico Vertical, aplicando técnicas de AA en la adquisición geoeléctrica con un Resistivímetro Analógico, el método consiste en inducir una corriente eléctrica en el subsuelo a través de dos electrodos afianzados al terreno, al mismo tiempo se realiza la lectura del potencial inducido por el flujo de la corriente en otro par de electrodos, colocados a una distancia previamente definida, empleando la configuración eléctrica Schlumberger (Referencia año), obteniendo valores de resistividad aparente en cada sondeo, durante la adquisición de datos se recopila la siguiente información: 
 
@@ -281,48 +281,74 @@ max	300.000000	1000.000000	100.000000	2781.760000
 \end{lstlisting}}\\
 	\hline
 \end{tabular}
-\subparagraph*{Código xx}{\footnotesize Información general de la base de datos resultante, $res\_geo\_copy.info()$}\\
+\subparagraph*{Código xx}{\footnotesize Información general de la base de datos resultante, $res\_geo\_copy.info()$}
 \end{center}
 
 Se genero la estadística básica para los datos mediante código en $Phyton$, teniendo los siguientes resultados:\\
 
-media = 333.4500974025974\\
+media = 333.4500974025974
 
-media con flotante = 333.4500974025974\\
+media con flotante = 333.4500974025974
 
-media baja de los datos = 108.79\\
+media baja de los datos = 108.79
 
-media alta de los datos = 109.09\\
+media alta de los datos = 109.09
 
-moda = 12.87\\
+moda = 12.87
 
-cuartiles = [27.8925, 108.94, 298.90999999999997]\\
+cuartiles = [27.8925, 108.94, 298.90999999999997]
 
-varianza = 304169.9552565759\\
+varianza = 304169.9552565759
 
-desviación estándar = 551.5160516762644\\
+desviación estándar = 551.5160516762644
 
-valor máximo = 2781.76\\
+valor máximo = 2781.76
 
 valor mínimo = 0.38\\
 
-A partir de la información obtenida se puede concluir que 
+A partir de la información obtenida se puede concluir que la base de datos una desviación estándar y una varianza bastante elevada,  
 
 Subsecuentemente generamos un histograma de estos vales, obteniendo un panorama general de la distribución de las muestras respecto una característica cuantitativa y continua, representando la densidad de frecuencia acumuladas en intervalos iguales,\cite{Gutierrez2013} esta información es relevante ya de primera mano conociendo la distribución de las frecuencias podemos intuir el tipo de distribución que presentan los datos, en este caso no presentan una distribución normal, siendo no paramétricos (Ver Figura XX)
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.9\linewidth]{imagenes/Histograma_Rha}
+	\includegraphics[width=0.7\linewidth]{imagenes/Histograma_Rha}
 	\caption[Figura]{Histograma generado a partir de los datos de Rha, densidad de probabilidad, distribución de las resistividades}
 	\label{fig:histogramarha}
 \end{figure}
 
+De igual manera se obtiene un diagrama de violín el cual se utiliza para visualizar la distribución de los datos y su densidad de probabilidad. Este gráfico es una combinación de un diagrama de cajas, bigotes y un diagrama de densidad, girado y colocado a cada lado, mostrando la distribución de los datos. la linea que divide por el centro y acotado en su extremo representa el intervalo intercuartil, representando el 95 \% de los intervalos de confianza en su parte mas abultada, y la linea vertical representa la posición de la media (Ver Figura XX).
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{imagenes/diagrama de violin distribucion de resissitivdades aparentes}
+	\caption[Figura]{Diagrama de Violín donde se observa la a densidad de probabilidad de la Rha}
+	\label{fig:diagrama de violin}
+\end{figure}
+
+Estas dos representaciones permiten tener un panorama general de la información contenida en la base de datos, facilita la clasificación de la información, establece los lineamientos para re-clasificación y preparación del $DataFrame$ para la aplicación de técnicas de Aprendizaje Automático.
 
 \subsection{Correlación y Selección de Variables}\label{subsec5}
 
+parte del proceso del análisis de los datos se lleva a acabo mediante la correlación  de las variables de interés, con el objetivo de esclarecer una relación entre ambas variables, esta parte del trabajo la realizamos mediante una Matriz de Correlación. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{imagenes/matriz de correlacion}
+	\caption[Figura]{Podemos observar en la escala de color el grado de correlación presente entre la profundidad y el valor de resistividad Aparente.}
+	\label{fig:Matrix de correlacion}
+\end{figure}
+
+A partir de la prueba de correlación se puedo identificar el siguiente comportamiento
+
+1.- Tenemos una alta correlación entre los valores de la prueba, entre la profundidad y el aumento de la resistividad, este comportamiento es consistente con los valores.
+
+2.- En cuanto a los valores de baja correlación, nos aportan información valiosa ya que pueden estar representando una anomalía en la distribución esperada, traduciéndose una dispersión de valores de Rha, es decir una baja correlación de los valores, representando valores de interés para la exploración geohídrica.
+
+3.- En cuanto a la distribución se deben considerar como datos no paramétricos, mucho mas similares a una distribución de tipo Gamma.
 
 \subsection{Entrenamiento de Modelo}\label{subsec6}
+
 
 \section{Resultados}\label{sec4}
 

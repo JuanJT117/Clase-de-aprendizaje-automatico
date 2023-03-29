@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.3.23)  29 MAR 2023 03:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.3.23)  29 MAR 2023 17:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -926,51 +926,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 287--288
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 291--292
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 293--294
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 295--296
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 297--298
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 299--300
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 301--302
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 303--304
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 305--306
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 307--308
 
  []
@@ -978,21 +933,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 307--308
 <imagenes/Histograma_Rha.png, id=116, 524.6802pt x 353.4003pt>
 File: imagenes/Histograma_Rha.png Graphic file (type png)
 <use imagenes/Histograma_Rha.png>
-Package pdftex.def Info: imagenes/Histograma_Rha.png  used on input line 314.
-(pdftex.def)             Requested size: 334.79773pt x 225.51213pt.
+Package pdftex.def Info: imagenes/Histograma_Rha.png  used on input line 315.
+(pdftex.def)             Requested size: 260.39886pt x 175.40012pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
+<imagenes/diagrama de violin distribucion de resissitivdades aparentes.png, id=
+136, 398.9304pt x 298.4751pt>
+File: imagenes/diagrama de violin distribucion de resissitivdades aparentes.png
+ Graphic file (type png)
+<use imagenes/diagrama de violin distribucion de resissitivdades aparentes.png>
 
-Package hyperref Warning: Difference (4) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 342.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 373--377
-
- []
-
+Package pdftex.def Info: imagenes/diagrama de violin distribucion de resissitiv
+dades aparentes.png  used on input line 324.
+(pdftex.def)             Requested size: 260.39886pt x 194.8354pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1001,11 +956,44 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.377 	
-        <./imagenes/Histograma_Rha.png>]
+l.330 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.330 
+       <./imagenes/Histograma_Rha.png> <./imagenes/diagrama de violin distribuc
+ion de resissitivdades aparentes.png>]
+<imagenes/matriz de correlacion.png, id=145, 385.9218pt x 320.8788pt>
+File: imagenes/matriz de correlacion.png Graphic file (type png)
+<use imagenes/matriz de correlacion.png>
+Package pdftex.def Info: imagenes/matriz de correlacion.png  used on input line
+ 338.
+(pdftex.def)             Requested size: 260.39886pt x 216.51529pt.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7]
+ [7
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.362 \section
+              {Conclusión}\label{sec6} <./imagenes/matriz de correlacion.png>]
+
+Package hyperref Warning: Difference (4) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 371.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--406
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
 (sn-article.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
@@ -1016,14 +1004,17 @@ LaTeX Info: Redefining \% on input line 25.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.47939pt have occurred.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `sn-article.out' has not changed.
 (rerunfilecheck)             Checksum: BB22DB722B881DB9F5F7012B6895AB1F;2350.
  ) 
 Here is how much of TeX's memory you used:
- 17484 strings out of 475385
- 275240 string characters out of 2776907
- 875038 words of memory out of 3000000
- 38505 multiletter control sequences out of 15000+600000
+ 17511 strings out of 475385
+ 276570 string characters out of 2776907
+ 875094 words of memory out of 3000000
+ 38527 multiletter control sequences out of 15000+600000
  486682 words of font info for 99 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
  87i,14n,91p,1054b,1630s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1047,9 +1038,9 @@ type1/public/amsfonts/cm/cmr8.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX
 /MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/juanj/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/juanj/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti7.pfb>
-Output written on sn-article.pdf (7 pages, 282369 bytes).
+Output written on sn-article.pdf (8 pages, 334650 bytes).
 PDF statistics:
- 241 PDF objects out of 1000 (max. 8388607)
- 60 named destinations out of 1000 (max. 500000)
- 126 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 252 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
 
