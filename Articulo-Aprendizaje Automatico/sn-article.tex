@@ -116,7 +116,7 @@
 \author*[1]{\pfx{Ing} \fnm{Torres S.} \sur{Juan J.}}\email{juan.j.torres.s@gmail.com}
 
 
-\affil*[1]{\orgdiv{Facultad F\'isico Matem\'aticas}, \orgname{Maestr\'ia Ciencia de Datos}, \orgaddress{\street{Av. universisdad}, \city{San Nicolas de los Garza}, \postcode{66022}, \state{N.L.}, \country{México}}}
+\affil*[1]{\orgdiv{Facultad de Ciencias Físico Matemáticas}, \orgname{Maestr\'ia Ciencia de Datos}, \orgaddress{\street{Pedro de Alba, Niños Héroes}, \city{San Nicolás de los Garza}, \postcode{66451}, \state{N.L.}, \country{México}}}
 
 
 %%==================================%%
@@ -189,59 +189,49 @@ Normalmente la adquisición de datos, con equipos analógicos, es realizada por 
 
 \section{Marco Teórico}\label{sec2}
 
+\subsection{Modelo No Supervisado}\label{subsec1}
 
-
-\subsection{Estadística Descriptiva}\label{subsec1}
-
-Se obtienen los 
-
-\begin{lstlisting}[language=python]
-	
-	media_Rha = statistics.mean(res_geo_copy.Rha)
-	media_flot_Rha = statistics.fmean(res_geo_copy.Rha)
-	media_baja_Rha = statistics.median_low(res_geo_copy.Rha)
-	media_alta_Rha = statistics.median_high(res_geo_copy.Rha)
-	moda_Rha = statistics.mode(res_geo_copy.Rha)
-	cuartiles_Rha = statistics.quantiles(res_geo_copy.Rha, n=4)
-	varianza_Rha = statistics.variance(res_geo_copy.Rha)
-	desviacion_est_Rha = statistics.stdev(res_geo_copy.Rha)
-	valor_max_Rha = max(res_geo_copy.Rha)
-	valor_min_Rha = min(res_geo_copy.Rha)
-	
-\end{lstlisting}
-
-
-
-
-
-\begin{lstlisting}
-	
-	
-	
-\end{lstlisting}
-
-
-\subsection{Modelo No Supervisado}\label{subsec2}
-
-\subsection{Modelo Supervisado: Isolation Forest}\label{subsec3}
+\subsection{Modelo Supervisado: Isolation Forest}\label{subsec2}
 
 
 \section{Metodología}\label{sec3}
 Para este proyecto se trabajaran con datos de Resistividad eléctrica, adquiridos durante campañas de exploración en distintas zonas de México, sumando un total de 647 registros correspondientes a 29 sondeos, por protección de los clientes se cambiaron nombres de personal y ubicaciones geográfica, cambiando la ubicación de los sitios por un cuadrante del municipio San Nicolás de los Garza ubicado en el Estado de Nuevo León, para fines prácticos.
 
-la data base con la que se trabajara serán los datos finales de adquisición, correspondientes a 
+Se aplicaron métodos estadísticos descriptivos básicos, correlación entre variables y entrenamientos de modelos supervisados y no supervisados; en cada paso del proceso se genero información que permitió avanzar en el objetivo del estudio así como otorgar un panorama de lo general a lo particular a fin de alcázar el modelado predictivo.
 
-\begin{itemize} 
-	\item  Sitio
-	\item  Coordenada Este
-	\item  Coordenada Norte
-	\item  Altitud 
-	\item  Profundidad de muestreo
-	\item  Distancia entre los electrodos A y B
-	\item  Distancia entre los Electrodos M y N
-	\item  Resistividad Eléctrica Aparente Final
-\end{itemize}
-siendo esta la información previa a la inversión de datos para obtener las resistividades calculadas. Y es mediante esta información que se pretende generar 
+\subsection{Reorganización y Preparación De Los Datos}\label{subsec3}
+
+En esta etapa del trajo se procedió a reagrupar las columnas, descartando aquellas que no se relacionan directamente con el objetivo del trabajo, posteriormente se procese a eliminar las columnas que no contienen información o que presentan valores fuera de los parámetros esperados (Resistividades por a debajo de $0$ $ohm*m$), eliminamos los valores nulos, a partir de esta información generamos una nueva base de datos, integrándose de los siguientes elementos: Sitio, Coordenada Este, Coordenada Norte, Altitud, Profundidad de muestreo, Distancia entre los electrodos A y B, Distancia entre los Electrodos M y N, Resistividad Eléctrica Aparente Final.\\
+
+
+\begin{center}
+	\begin{tabular}{|c|}
+			\hline
+\begin{lstlisting}[language=python]
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 647 entries, 0 to 646
+Data columns (total 8 columns):
+#   Column   Non-Null Count  Dtype  
+---  ------   --------------  -----  
+0   sitio    647 non-null    object 
+1   ESTE     647 non-null    float64
+2   NORTE    647 non-null    float64
+3   ALTITUD  647 non-null    int64  
+4   Z        647 non-null    float64
+5   AB       647 non-null    int64  
+6   MN       647 non-null    float64
+7   Rha      647 non-null    float64
+dtypes: float64(5), int64(2), object(1)
+memory usage: 40.6+ KB
+\end{lstlisting}\\
+
+		\hline
+\end{tabular}
+\subparagraph*{Código xx}{\footnotesize Información general de la base de datos resultante, $res\_geo\_copy.info()$}
+
+\end{center}
+
+A partir de esta primera etapa obtenemos la siguiente base de datos, denominada $res\_geo\_copy$, sobre este mismo registro agregaremos una columna que contendrá el valor normalizado correspondiente a $Rha$ (resistividad aparente), de esta misma dividiremos por sitio y los registros a fin de calcular la estadística básica de cada $sitio$.
 
 \begin{center}
 	\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
@@ -263,10 +253,71 @@ siendo esta la información previa a la inversión de datos para obtener las res
 		646&	S3-HIGA&	370645.67&	2848071.60&	502&	120.0&	400&	20.0&	22.53 \\
 		\hline
 	\end{tabular}
-	\subparagraph{titile}talbla
+	\subparagraph{Tabla XX}{\footnotesize  Visualización del DataFrame $res\_geo\_copy$, se observan las principales columnas y la estructura general de los datos que la integran.}\\
 \end{center}
 
-\subsection{Reorganización de los datos}\label{subsec4}
+La segmentación del DataFrame se realizo con el objetivo de generar una base de datos de entrenamiento, misma que contiene los sitios que presentaron anomalías relacionadas a acuíferos.
+
+
+\subsection{Estadística Descriptiva}\label{subsec4}
+
+Para el conjunto de datos seccionados se obtiene la estadística básica para cada columna, de esta manera podemos observar la el comportamiento general de los datos y a partir de este punto generar nueva estadística que nos proporcione información mas relevante para identificar las áreas de oportunidad de análisis.
+
+\begin{center}
+	\begin{tabular}{|c|}
+		\hline
+{\small \begin{lstlisting}[language=python]
+res_geo_copy.describe()
+
+		Z		AB		MN		Rha
+count	616.000000	616.000000	616.000000	616.000000
+mean	42.870292	142.900974	10.139610	333.450097
+std	54.174873	180.582909	11.298715	551.516052
+min	0.600000	2.000000	0.500000	0.380000
+25%	6.000000	20.000000	4.375000	27.917500
+50%	24.000000	80.000000	5.000000	108.940000
+75%	57.000000	190.000000	20.000000	297.190000
+max	300.000000	1000.000000	100.000000	2781.760000
+\end{lstlisting}}\\
+	\hline
+\end{tabular}
+\subparagraph*{Código xx}{\footnotesize Información general de la base de datos resultante, $res\_geo\_copy.info()$}\\
+\end{center}
+
+Se genero la estadística básica para los datos mediante código en $Phyton$, teniendo los siguientes resultados:\\
+
+media = 333.4500974025974\\
+
+media con flotante = 333.4500974025974\\
+
+media baja de los datos = 108.79\\
+
+media alta de los datos = 109.09\\
+
+moda = 12.87\\
+
+cuartiles = [27.8925, 108.94, 298.90999999999997]\\
+
+varianza = 304169.9552565759\\
+
+desviación estándar = 551.5160516762644\\
+
+valor máximo = 2781.76\\
+
+valor mínimo = 0.38\\
+
+A partir de la información obtenida se puede concluir que 
+
+Subsecuentemente generamos un histograma de estos vales, obteniendo un panorama general de la distribución de las muestras respecto una característica cuantitativa y continua, representando la densidad de frecuencia acumuladas en intervalos iguales,\cite{Gutierrez2013} esta información es relevante ya de primera mano conociendo la distribución de las frecuencias podemos intuir el tipo de distribución que presentan los datos, en este caso no presentan una distribución normal, siendo no paramétricos (Ver Figura XX)
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{imagenes/Histograma_Rha}
+	\caption[Figura]{Histograma generado a partir de los datos de Rha, densidad de probabilidad, distribución de las resistividades}
+	\label{fig:histogramarha}
+\end{figure}
+
+
 
 \subsection{Correlación y Selección de Variables}\label{subsec5}
 
@@ -284,7 +335,7 @@ Discussions
 
 Conclusions
 
-\backmatter
+
 
 
 \bmhead{Agradecimientos}
@@ -320,22 +371,25 @@ An appendix contains supplementary information that is not an essential part of 
 
 	\begin{thebibliography}{X}\label{sec7}
 	
-	\bibitem{Joa} \textsc{Joaquín Amat, Rodrigo}
+	\bibitem{Joaquin2023} \textsc{Joaquín Amat, Rodrigo}
 	\textit{Machine learning con Python y Scikit-learn}, available under a Attribution 4.0 International (CC BY 4.0), Fecha de consulta: 26/03/23,\\
 	Url: https://www.cienciadedatos.net/documentos/py06\_machine\_learning\_\\
 	python\_scikitlearn.html.\\
 	
-	\bibitem{Cesano} \textsc{Cesano, D., Olofsson, B.} y \textsc{Bagtzoglou, A. C.}(2000),
+	\bibitem{Cesano2000} \textsc{Cesano, D., Olofsson, B.} y \textsc{Bagtzoglou, A. C.}(2000),
 	\textit{Parameters regulating groundwater inflows into hard rock tunnels—a statistical study of the Bolmen tunnel in southern Sweden}, Tunnelling and Underground Space Technology, 15(2), 153-165.
 	
-	\bibitem{Parsekian} \textsc{Parsekian, A. D., Claes, N., Singha, K., Minsley, B. J., Carr, B., Voytek, E.} y \textsc{Flinchum, B.}(2017),
+	\bibitem{Parsekian2017} \textsc{Parsekian, A. D., Claes, N., Singha, K., Minsley, B. J., Carr, B., Voytek, E.} y \textsc{Flinchum, B.}(2017),
 	\textit{Comparing measurement response and inverted results of electrical resistivity tomography instruments}, Journal of Environmental and Engineering Geophysics, 22(3), 249-266.
 	
 	%	\bibitem{Dan} \textsc{Dantzig, G.B.} y \textsc{P. Wolfe},
 	%	<<Decomposition principle for linear programs>>,
 	%	\textit{Operations Research}, \textbf{8}, págs. 101--111, 1960.
 	
+	\bibitem{Gutierrez2013} \textsc{Gutierrez, R. B.,} y \textsc{i Cintas, P. G.}(2013),
+	\textit{El histograma como un instrumento para la comprensión de las funciones de densidad de probabilidad.}, robabilidad Condicionada: Revista de didáctica de la Estadística, 22(3), P, (2), 229-235.
 	
+	 
 	
 	
 	\end{thebibliography}
