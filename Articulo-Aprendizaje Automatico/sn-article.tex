@@ -59,10 +59,11 @@
 \usepackage{algorithm}%
 \usepackage{algorithmicx}%
 \usepackage{algpseudocode}%
-\usepackage{listings}%
+\usepackage{listings}%---->para redactar codigo
+
 %%%%
 
-%\usepackage[spanish,onelanguage]{algorithm2e}
+\usepackage[spanish,onelanguage]{algorithm2e}
 %%%%%=============================================================================%%%%
 %%%%  Remarks: This template is provided to aid authors with the preparation
 %%%%  of original research articles intended for submission to journals published 
@@ -130,7 +131,7 @@
 
 \abstract{\textbf{Propósito:} Durante el proceso de adquisición de datos geoléctricos, se pueden presentar anomalías, ya sean errores de medición, error de muestreo, ruido ambiental, efectos de sitio, etc.., esta publicación tiene por finalidad generar un algoritmo de Aprendizaje Automático que permita identificar error en etapas tempranas de adquisición así como una pre-interpretación de unidades saturadas, con la finalidad de reducir las incertidumbre, mejorando la calidad de los datos y dar la oportunidad al aperador de corregirlos al momento, así como generar una alerta temprana de unidades saturadas con el objetivo de ampliar la resolución de la unidad en cuestión con el objeto de obtener mayor detalle de estas zonas de interés.
 % 
- \textbf{Método:} para lograr el propósito se empleara un conjunto de 647 datos, correspondientes a 28 Sondeos Eléctricos Verticales (SEV), realizados a lo largo de un año de mediciones, en configuraciones geológicas completamente distintas.
+ \textbf{Método:} para lograr el propósito se empleara un conjunto de 647 datos, correspondientes a 29 Sondeos Eléctricos Verticales (SEV), realizados a lo largo de un año de mediciones, en configuraciones geológicas completamente distintas.
 % 
 % \textbf{Results:} The abstract serves both as a general introduction to the topic and as a brief, non-technical summary of the main results and their implications. The abstract must not include subheadings (unless expressly permitted in the journal's Instructions to Authors), equations or citations. As a guide the abstract should not exceed 200 words. Most journals do not set a hard limit however authors are advised to check the author instructions for the journal they are submitting to.
 % 
@@ -184,9 +185,70 @@ En una campaña de exploración geofísica enfocada en recursos geohídricas se 
 	\item  Resistividad Eléctrica Aparente Final
 \end{itemize}
 
+Normalmente la adquisición de datos, con equipos analógicos, es realizada por personal con experiencia, sin embargo este no siempre es el caso, por lo que es resulta conveniente tener herramientas que nos permitan tener la oportunidad de mejor la calidad de los datos con alertas tempranas durante el registro de la adquisición geofísica, reduciendo los errores de muestreo y atenuando la incertidumbre de datos adquiridos por un operador inexperto.
+
+\section{Marco Teórico}\label{sec2}
+
+\subsection{Estadística Descriptiva}\label{subsec1}
+
+Se obtienen los 
+
+\begin{lstlisting}[language=python]
+	
+	media_Rha = statistics.mean(res_geo_copy.Rha)
+	media_flot_Rha = statistics.fmean(res_geo_copy.Rha)
+	media_baja_Rha = statistics.median_low(res_geo_copy.Rha)
+	media_alta_Rha = statistics.median_high(res_geo_copy.Rha)
+	moda_Rha = statistics.mode(res_geo_copy.Rha)
+	cuartiles_Rha = statistics.quantiles(res_geo_copy.Rha, n=4)
+	varianza_Rha = statistics.variance(res_geo_copy.Rha)
+	desviacion_est_Rha = statistics.stdev(res_geo_copy.Rha)
+	valor_max_Rha = max(res_geo_copy.Rha)
+	valor_min_Rha = min(res_geo_copy.Rha)
+	
+\end{lstlisting}
+
+
+\begin{center}
+	\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+	\hline
+	 \#&Sitio & Lon Este & Lat Norte & Altitud & Z & AB & MN & Rha \\
+	\hline
+	 0&S1-TV-VLH&	370462.31&	2850554.93&	489&	1.8&	6&	0.5&	17.24\\	
+	%\hline
+	 1&S1-TV-VLH&	370462.31&	2850554.93&	489&	2.4&	8&	0.5&	25.89\\
+	%\hline
+	 2&S1-TV-VLH&	370462.31&	2850554.93&	489&	3.0&	10&	0.5&	47.94 \\
+	%\hline
+	...& ... &...  &...  &...  &...  &...  &...  &...  \\
+	%\hline
+	644&	S3-HIGA&	370645.67&	2848071.60&	502&	90.0&	300&	20.0&	18.98  \\
+	%\hline
+	645&	S3-HIGA&	370645.67&	2848071.60&	502&	102.0&	340&	20.0&	24.61 \\
+	%\hline
+	646&	S3-HIGA&	370645.67&	2848071.60&	502&	120.0&	400&	20.0&	22.53 \\
+	\hline
+\end{tabular}
+\end{center}
+
+
+
+\begin{lstlisting}
+	
+	
+	
+\end{lstlisting}
+
+
+\subsection{Modelo No Supervisado}\label{subsec2}
+
+\subsection{Modelo Supervisado: Isolation Forest}\label{subsec3}
+
+
+\section{Metodología}\label{sec3}
 Para este proyecto se trabajaran con datos de Resistividad eléctrica, adquiridos durante campañas de exploración en distintas zonas de México, sumando un total de 647 registros correspondientes a 29 sondeos, por protección de los clientes se cambiaron nombres de personal y ubicaciones geográfica, cambiando la ubicación de los sitios por un cuadrante del municipio San Nicolás de los Garza ubicado en el Estado de Nuevo León, para fines prácticos.
 
-la data base con la que se trabajara seran los datos finales de de adquicision, correspondientes a 
+la data base con la que se trabajara serán los datos finales de adquisición, correspondientes a 
 
 \begin{itemize} 
 	\item  Sitio
@@ -200,35 +262,35 @@ la data base con la que se trabajara seran los datos finales de de adquicision, 
 \end{itemize}
 siendo esta la información previa a la inversión de datos para obtener las resistividades calculadas. Y es mediante esta información que se pretende generar 
 
-\section{Metodología}\label{sec2}
 
-Para real
 
-\subsection{Estad\'istica descriptiva}\label{subsec1}
+\subsection{Reorganización de los datos}\label{subsec4}
 
-\subsection{Aplicaci\'on de ML}\label{subsec2}
+\subsection{Correlación y Selección de Variables}\label{subsec5}
 
-Sample body
+
+\subsection{Entrenamiento de Modelo}\label{subsec6}
 
 \section{Resultados}\label{sec4}
 
 
-\section{Discussion}\label{sec12}
+\section{Discusión}\label{sec5}
 
 Discussions
 
-\section{Conclusion}\label{sec13}
+\section{Conclusión}\label{sec6}
 
 Conclusions
 
 \backmatter
 
 
-\bmhead{Acknowledgments}
+\bmhead{Agradecimientos}
 
 Acknowledgments are not compulsory. Where included they should be brief. Grant or contribution numbers may be acknowledged.
 
 Please refer to Journal-level guidance for any specific requirements.
+
 
 
 \begin{appendices}
@@ -253,16 +315,28 @@ An appendix contains supplementary information that is not an essential part of 
 
 \end{appendices}
 
-%%===========================================================================================%%
-%% If you are submitting to one of the Nature Portfolio journals, using the eJP submission   %%
-%% system, please include the references within the manuscript file itself. You may do this  %%
-%% by copying the reference list from your .bbl file, paste it into the main manuscript .tex %%
-%% file, and delete the associated \verb+\bibliography+ commands.                            %%
-%%===========================================================================================%%
 
-\bibliography{sn-bibliography}% common bib file
-%% if required, the content of .bbl file can be included here once bbl is generated
-%%\input sn-article.bbl
+	\begin{thebibliography}{X}\label{sec7}
+	
+	\bibitem{Joa} \textsc{Joaquín Amat, Rodrigo}
+	\textit{Machine learning con Python y Scikit-learn}, available under a Attribution 4.0 International (CC BY 4.0), Fecha de consulta: 26/03/23,\\
+	Url: https://www.cienciadedatos.net/documentos/py06\_machine\_learning\_\\
+	python\_scikitlearn.html.\\
+	
+	\bibitem{Cesano} \textsc{Cesano, D., Olofsson, B.} y \textsc{Bagtzoglou, A. C.}(2000),
+	\textit{Parameters regulating groundwater inflows into hard rock tunnels—a statistical study of the Bolmen tunnel in southern Sweden}, Tunnelling and Underground Space Technology, 15(2), 153-165.
+	
+	\bibitem{Parsekian} \textsc{Parsekian, A. D., Claes, N., Singha, K., Minsley, B. J., Carr, B., Voytek, E.} y \textsc{Flinchum, B.}(2017),
+	\textit{Comparing measurement response and inverted results of electrical resistivity tomography instruments}, Journal of Environmental and Engineering Geophysics, 22(3), 249-266.
+	
+	%	\bibitem{Dan} \textsc{Dantzig, G.B.} y \textsc{P. Wolfe},
+	%	<<Decomposition principle for linear programs>>,
+	%	\textit{Operations Research}, \textbf{8}, págs. 101--111, 1960.
+	
+	
+	
+	
+	\end{thebibliography}
 
 
 \end{document}
