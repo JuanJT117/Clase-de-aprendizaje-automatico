@@ -5,7 +5,7 @@ Aquí se cargaran los archivos de taras al igual que el avance del Articulo.
 ## Proyecto: Articulo
 En esta sección se vera el avance del proyecto redactado en $LaTex$, cuyo avance quedara como evidencia en los PDF compilados correspondientes al avance del proyecto
 
-.[PDF --> correspondiente a ultima compilación](https://github.com/JuanJT117/Clase-de-aprendizaje-automatico/blob/c542ef5465db2457cdf1390f91b6951ac082f881/Articulo-Aprendizaje%20Automatico/sn-article.pdf)
+.[PDF --> correspondiente a ultima compilación](https://github.com/JuanJT117/Clase-de-aprendizaje-automatico/blob/03cde1bff8cf684deaa1fe276226cdd769c45919/Articulo-Aprendizaje%20Automatico/sn-article.pdf)
 
 .[Articulo - objetivos, hipótesis y justificación por definir](https://github.com/JuanJT117/Clase-de-aprendizaje-automatico/tree/main/Articulo)
 
