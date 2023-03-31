@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.3.23)  29 MAR 2023 17:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.3.23)  30 MAR 2023 20:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -889,6 +889,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 204--205
 
  []
 
+LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 208.
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.015> not available
+(Font)              size <5> substituted on input line 208.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.015> not available
+(Font)              size <5> substituted on input line 208.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.015> not available
+(Font)              size <5> substituted on input line 208.
+
+
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <4.015> not available
+(Font)              size <5> substituted on input line 208.
+
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
@@ -898,80 +915,104 @@ LaTeX Font Info:    Trying to load font information for OML+cmr on input line 2
 (C:\Users\juanj\AppData\Local\Programs\MiKTeX\tex/latex/base\omlcmr.fd
 File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.03749> not available
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <8.03> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 211.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.259 	\end{center}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-Overfull \hbox (5.02866pt too wide) in paragraph at lines 237--256
+Overfull \hbox (11.85124pt too wide) in paragraph at lines 270--292
  [] 
  []
 
 
-Package hyperref Warning: Difference (3) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 256.
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
+
+ []
 
 
-Overfull \hbox (11.85124pt too wide) in paragraph at lines 267--284
- [] 
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
+
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4]
-Underfull \hbox (badness 10000) in paragraph at lines 287--288
+ [4
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.318 S
+       ubsecuentemente generamos un histograma de estos vales, obteniendo un...
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 307--308
-
- []
-
-<imagenes/Histograma_Rha.png, id=116, 524.6802pt x 353.4003pt>
+pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.318 S
+       ubsecuentemente generamos un histograma de estos vales, obteniendo un...
+]
+<imagenes/Histograma_Rha.png, id=102, 524.6802pt x 353.4003pt>
 File: imagenes/Histograma_Rha.png Graphic file (type png)
 <use imagenes/Histograma_Rha.png>
-Package pdftex.def Info: imagenes/Histograma_Rha.png  used on input line 315.
+Package pdftex.def Info: imagenes/Histograma_Rha.png  used on input line 322.
 (pdftex.def)             Requested size: 260.39886pt x 175.40012pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5]
+ [5
+pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.328 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.328 
+       <./imagenes/Histograma_Rha.png>]
 <imagenes/diagrama de violin distribucion de resissitivdades aparentes.png, id=
-136, 398.9304pt x 298.4751pt>
+124, 398.9304pt x 298.4751pt>
 File: imagenes/diagrama de violin distribucion de resissitivdades aparentes.png
  Graphic file (type png)
 <use imagenes/diagrama de violin distribucion de resissitivdades aparentes.png>
 
 Package pdftex.def Info: imagenes/diagrama de violin distribucion de resissitiv
-dades aparentes.png  used on input line 324.
+dades aparentes.png  used on input line 331.
 (pdftex.def)             Requested size: 260.39886pt x 194.8354pt.
+<imagenes/matriz de correlacion.png, id=125, 385.9218pt x 320.8788pt>
+File: imagenes/matriz de correlacion.png Graphic file (type png)
+<use imagenes/matriz de correlacion.png>
+Package pdftex.def Info: imagenes/matriz de correlacion.png  used on input line
+ 344.
+(pdftex.def)             Requested size: 260.39886pt x 216.51529pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6
-pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.330 
-      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.330 
-       <./imagenes/Histograma_Rha.png> <./imagenes/diagrama de violin distribuc
-ion de resissitivdades aparentes.png>]
-<imagenes/matriz de correlacion.png, id=145, 385.9218pt x 320.8788pt>
-File: imagenes/matriz de correlacion.png Graphic file (type png)
-<use imagenes/matriz de correlacion.png>
-Package pdftex.def Info: imagenes/matriz de correlacion.png  used on input line
- 338.
-(pdftex.def)             Requested size: 260.39886pt x 216.51529pt.
-
+l.348 
+       <./imagenes/diagrama de violin distribucion de resissitivdades aparentes
+.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7
@@ -979,21 +1020,73 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.362 \section
-              {Conclusión}\label{sec6} <./imagenes/matriz de correlacion.png>]
+l.366 
+       <./imagenes/matriz de correlacion.png>]
+<imagenes/distribucion de estadistica por sitio.png, id=145, 1076.1003pt x 1365
+.903pt>
+File: imagenes/distribucion de estadistica por sitio.png Graphic file (type png
+)
+<use imagenes/distribucion de estadistica por sitio.png>
+Package pdftex.def Info: imagenes/distribucion de estadistica por sitio.png  us
+ed on input line 402.
+(pdftex.def)             Requested size: 409.20227pt x 519.40285pt.
+
+Overfull \hbox (37.20227pt too wide) in paragraph at lines 402--403
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8
+pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.406 
+      ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.406 
+       <./imagenes/distribucion de estadistica por sitio.png>]
+<imagenes/KMeans.png, id=173, 708.9687pt x 309.3156pt>
+File: imagenes/KMeans.png Graphic file (type png)
+<use imagenes/KMeans.png>
+Package pdftex.def Info: imagenes/KMeans.png  used on input line 414.
+(pdftex.def)             Requested size: 409.20227pt x 178.53473pt.
+
+Overfull \hbox (37.20227pt too wide) in paragraph at lines 414--415
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.424 
+       <./imagenes/KMeans.png>]
 
 Package hyperref Warning: Difference (4) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 371.
+(hyperref)                than one, level fixed on input line 429.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 402--406
+Underfull \hbox (badness 10000) in paragraph at lines 453--457
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8]
+ [11]
 (sn-article.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
@@ -1002,45 +1095,46 @@ LaTeX Info: Redefining \% on input line 25.
 )
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 0.47939pt have occurred.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+(Font)              up to 0.985pt have occurred.
 
 Package rerunfilecheck Info: File `sn-article.out' has not changed.
-(rerunfilecheck)             Checksum: BB22DB722B881DB9F5F7012B6895AB1F;2350.
+(rerunfilecheck)             Checksum: 2AC5DE0FF8E1752E2499DA5E972A093E;1933.
  ) 
 Here is how much of TeX's memory you used:
- 17511 strings out of 475385
- 276570 string characters out of 2776907
- 875094 words of memory out of 3000000
- 38527 multiletter control sequences out of 15000+600000
- 486682 words of font info for 99 fonts, out of 8000000 for 9000
+ 17635 strings out of 475385
+ 278696 string characters out of 2776907
+ 878159 words of memory out of 3000000
+ 38622 multiletter control sequences out of 15000+600000
+ 490468 words of font info for 114 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
- 87i,14n,91p,1054b,1630s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 87i,18n,91p,1054b,1881s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\juanj\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
-1000.pk> <C:\Users\juanj\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\tcti1000.pk><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmbx10.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmbx12.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/juanj/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/juanj/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/juanj/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ju
-anj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/
-Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.
-pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmr12.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmr17.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmr7.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmr8.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/juanj/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/juanj/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/juanj/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti7.pfb>
-Output written on sn-article.pdf (8 pages, 334650 bytes).
+0900.pk> <C:\Users\juanj\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\tcrm0800.pk> <C:\Users\juanj\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\tcti0800.pk><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmbx10.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/juanj/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/juanj/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/juanj/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/juanj
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Us
+ers/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.p
+fb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmmi7.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmmi8.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmr12.pfb><C:/Users/juanj/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/juanj/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/juanj/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/juanj/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/juanj
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Us
+ers/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.p
+fb><C:/Users/juanj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmti8.pfb>
+Output written on sn-article.pdf (11 pages, 662102 bytes).
 PDF statistics:
- 252 PDF objects out of 1000 (max. 8388607)
- 63 named destinations out of 1000 (max. 500000)
- 136 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 297 PDF objects out of 1000 (max. 8388607)
+ 84 named destinations out of 1000 (max. 500000)
+ 122 words of extra memory for PDF output out of 10000 (max. 10000000)
 

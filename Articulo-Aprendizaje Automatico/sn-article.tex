@@ -201,9 +201,9 @@ Se aplicaron métodos estadísticos descriptivos básicos, correlación entre va
 
 \subsection{Reorganización y Preparación De Los Datos}\label{subsec3}
 
-En esta etapa del trajo se procedió a reagrupar las columnas, descartando aquellas que no se relacionan directamente con el objetivo del trabajo, posteriormente se procese a eliminar las columnas que no contienen información o que presentan valores fuera de los parámetros esperados (Resistividades por a debajo de $0$ $ohm*m$), eliminamos los valores nulos, a partir de esta información generamos una nueva base de datos, integrándose de los siguientes elementos: Sitio, Coordenada Este, Coordenada Norte, Altitud, Profundidad de muestreo, Distancia entre los electrodos A y B, Distancia entre los Electrodos M y N, Resistividad Eléctrica Aparente Final.\\
+En esta etapa del trajo se procedió a reagrupar las columnas, descartando aquellas que no se relacionan directamente con el objetivo del trabajo, posteriormente se procese a eliminar las columnas que no contienen información o que presentan valores fuera de los parámetros esperados (Resistividades por a debajo de $0$ $ohm*m$), eliminamos los valores nulos, a partir de esta información generamos una nueva base de datos, integrándose de los siguientes elementos: Sitio, Coordenada Este, Coordenada Norte, Altitud, Profundidad de muestreo, Distancia entre los electrodos A y B, Distancia entre los Electrodos M y N, Resistividad Eléctrica Aparente Final (Cuadro 1).\\
 
-
+\begin{table}[t]
 \begin{center}
 	\begin{tabular}{|c|}
 			\hline
@@ -224,16 +224,17 @@ Data columns (total 8 columns):
 dtypes: float64(5), int64(2), object(1)
 memory usage: 40.6+ KB
 \end{lstlisting}\\
-
 		\hline
 \end{tabular}
-\subparagraph*{Código xx}{\footnotesize Información general de la base de datos resultante, $res\_geo\_copy.info()$}
-
+\caption{Información general de la base de datos resultante, $res\_geo\_copy.info()$}
+\label{tab:info}
 \end{center}
+\end{table}
 
-A partir de esta primera etapa obtenemos la siguiente base de datos, denominada $res\_geo\_copy$, sobre este mismo registro agregaremos una columna que contendrá el valor normalizado correspondiente a $Rha$ (resistividad aparente), de esta misma dividiremos por sitio y los registros a fin de calcular la estadística básica de cada $sitio$.
+A partir de esta primera etapa obtenemos la siguiente base de datos, denominada $res\_geo\_copy$ (Cuadro 2), sobre este mismo registro agregaremos una columna que contendrá el valor normalizado correspondiente a $Rha$ (resistividad aparente), de esta misma dividiremos por sitio y los registros a fin de calcular la estadística básica de cada $sitio$.
 
-\begin{center}
+\begin{table}[t]
+	\begin{center}
 	\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
 		\hline
 		\#&Sitio & Lon Este & Lat Norte & Altitud & Z & AB & MN & Rha \\
@@ -253,8 +254,11 @@ A partir de esta primera etapa obtenemos la siguiente base de datos, denominada 
 		646&	S3-HIGA&	370645.67&	2848071.60&	502&	120.0&	400&	20.0&	22.53 \\
 		\hline
 	\end{tabular}
-	\subparagraph{Tabla XX}{\footnotesize  Visualización del DataFrame $res\_geo\_copy$, se observan las principales columnas y la estructura general de los datos que la integran.}\\
-\end{center}
+	\caption{Visualización del DataFrame $res\_geo\_copy$, se observan las principales columnas y la estructura general de los datos que la integran.}
+	\label{tab:dataframe}
+	\end{center}
+\end{table}
+
 
 La segmentación del DataFrame se realizo con el objetivo de generar una base de datos de entrenamiento, misma que contiene los sitios que presentaron anomalías relacionadas a acuíferos.
 
@@ -263,13 +267,14 @@ La segmentación del DataFrame se realizo con el objetivo de generar una base de
 
 Para el conjunto de datos seccionados se obtiene la estadística básica para cada columna, de esta manera podemos observar la el comportamiento general de los datos y a partir de este punto generar nueva estadística que nos proporcione información mas relevante para identificar las áreas de oportunidad de análisis.
 
-\begin{center}
+\begin{table}[t]
+	\begin{center}
 	\begin{tabular}{|c|}
 		\hline
 {\small \begin{lstlisting}[language=python]
 res_geo_copy.describe()
 
-		Z		AB		MN		Rha
+	Z		AB		MN		Rha
 count	616.000000	616.000000	616.000000	616.000000
 mean	42.870292	142.900974	10.139610	333.450097
 std	54.174873	180.582909	11.298715	551.516052
@@ -281,8 +286,10 @@ max	300.000000	1000.000000	100.000000	2781.760000
 \end{lstlisting}}\\
 	\hline
 \end{tabular}
-\subparagraph*{Código xx}{\footnotesize Información general de la base de datos resultante, $res\_geo\_copy.info()$}
+\caption{Información general de la base de datos resultante, $res\_geo\_copy.info()$}
+\label{tab:.info}
 \end{center}
+\end{table}
 
 Se genero la estadística básica para los datos mediante código en $Phyton$, teniendo los siguientes resultados:\\
 
@@ -308,7 +315,7 @@ valor mínimo = 0.38\\
 
 A partir de la información obtenida se puede concluir que la base de datos una desviación estándar y una varianza bastante elevada,  
 
-Subsecuentemente generamos un histograma de estos vales, obteniendo un panorama general de la distribución de las muestras respecto una característica cuantitativa y continua, representando la densidad de frecuencia acumuladas en intervalos iguales,\cite{Gutierrez2013} esta información es relevante ya de primera mano conociendo la distribución de las frecuencias podemos intuir el tipo de distribución que presentan los datos, en este caso no presentan una distribución normal, siendo no paramétricos (Ver Figura XX)
+Subsecuentemente generamos un histograma de estos vales, obteniendo un panorama general de la distribución de las muestras respecto una característica cuantitativa y continua, representando la densidad de frecuencia acumuladas en intervalos iguales,\cite{Gutierrez2013} esta información es relevante ya de primera mano conociendo la distribución de las frecuencias podemos intuir el tipo de distribución que presentan los datos, en este caso no presentan una distribución normal, siendo no paramétricos (Ver Figura XX).
 
 \begin{figure}[H]
 	\centering
@@ -330,7 +337,7 @@ Estas dos representaciones permiten tener un panorama general de la información
 
 \subsection{Correlación y Selección de Variables}\label{subsec5}
 
-parte del proceso del análisis de los datos se lleva a acabo mediante la correlación  de las variables de interés, con el objetivo de esclarecer una relación entre ambas variables, esta parte del trabajo la realizamos mediante una Matriz de Correlación. 
+Parte del proceso del análisis de los datos se lleva a acabo mediante la correlación  de las variables de interés, con el objetivo de esclarecer una relación entre ambas variables, esta parte del trabajo la realizamos mediante una Matriz de Correlación. 
 
 \begin{figure}[H]
 	\centering
@@ -347,36 +354,83 @@ A partir de la prueba de correlación se puedo identificar el siguiente comporta
 
 3.- En cuanto a la distribución se deben considerar como datos no paramétricos, mucho mas similares a una distribución de tipo Gamma.
 
-\subsection{Entrenamiento de Modelo}\label{subsec6}
+
+\subsection{Análisis De Anomalías}\label{subsec6}
+Como podemos observar los datos presentan un reto adicional debido al tipo de distribución que presenta, por lo que es necesario conocer algunas métricas de la para tener claro la forma de proceder en el uso de la técnicas de Aprendizaje automático, una de estas pruebas es la Homocedasticidad, la cual nos indica que si la varianza de los datos es contante a lo largo del tiempo, esta se obtuvo aplicando el método de "Levene" mediante la librería "Pingouin", la cual es una prueba estadística inferencial utilizada para evaluar la igualdad de las varianzas para una variable calculada de uno o mas grupos \cite[Levene, H., 1960]{levene1960},la prueba estadística de Levene se define como:
+
+  \begin{equation}
+  	W=\dfrac{(N-k)}{(k-1)}\dfrac{\sum_{i=1}^{k}N_{i}(Z{i}-Z{..})^{2}}{\sum_{i=1}^{k}\sum_{i=1}^{N{i}}(Z{i}-Z{i})^{2}}
+  \end{equation}
+
+ Donde $k$ es el numero de diferentes grupos, $N$ es el número total de casos en todos los grupos, $y$ es el valor de la variable medida para cada sitio de cada localidad; como resultado de la prueba se observa que los datos no presentan Homocedasticidad, por lo que se tendrán se emplearon técnicas apropiadas al tipo de 
+ 
+\begin{table}[t]
+	\begin{center}
+		\begin{tabular}{|c|}
+			\hline
+			{\small \begin{lstlisting}[language=python]
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from scipy import stats
+import pingouin as pg
+				
+pg.homoscedasticity(data=datos, 
+			dv='Rha',
+			 group='sitio',
+			  method='levene')
+				
+        W		pval        	equal_var
+levene	14.144112	2.022176e-48	False
+					
+			\end{lstlisting}}\\
+		
+	
+			\hline
+		\end{tabular}
+		\caption{Prueba de Homocedasticidad mediante el método de Levene}
+		\label{tab:Homocedasticidad}
+	\end{center}
+\end{table}
+
+Debido a la distribución anómala de los datos es importante tener claro que parte de la información es útil para analizar, ya que en cada región de estudio no se presentaron resultados acorde a los esperados para acuíferos, por lo que es importante emplear solo aquellos que presentan la anomalía correcta para implementar las técnicas y generar un modelo que pueda discriminar esta característica del grueso de los datos, tal como se observa en la figura XX, se integraran los datos que presentan un comportamiento acorde a lo esperado, para ello se emplearan los datos correspondientes al área de estudio compuesta por los sitios S1-HIGA, S2-HIGA y S3-HIGA.
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1.1\linewidth]{imagenes/distribucion de estadistica por sitio}
+	\caption[Figura]{Histograma generado a partir de los datos de Rha, densidad de probabilidad, distribución de las resistividades}
+	\label{fig:Diagrama de densidad}
+\end{figure}
 
 
 \section{Resultados}\label{sec4}
 
+A partir de la información generada, se pueden identificar patrones de agrupamiento, ejemplo de ello es en la distribución de Rha por sitio, en donde se puede observar valores menores a $100 ohm*m$ casi en todos los sitios, el mismo comportamiento se observa en la correlación entre la profundidad y la Rha, en donde los sitios anómalos que se desvían de la relación directa nos aportan información sobre una tendencia subyacente de respuestas de baja resistividad a profundidades en las que no se espera esta correlación, teniendo en cuenta que los sitios anómalos con este comportamiento corresponden a ubicaciones donde la exploración geohídrica resulto positiva, incluyendo la perforación y alumbramiento del pozo, se da pie a buscar una mejor implementación empleando otros métodos para identificar específicamente este comportamiento en los datos.
 
-\section{Discusión}\label{sec5}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1.1\linewidth]{imagenes/KMeans}
+	\caption[Figura]{Comparación entre K-Means y Bisecting K-Means, es posible identificar las tendencias de agrupamiento por secciones.}
+	\label{fig:KMeans}
+\end{figure}
 
-Discussions
+Como podemos observar en los resultados de la prueba de ambos algoritmos, K-Means y Bisecting K-Means presentan gran similitud, sin embargo K-Means se enfoca unicamente en los puntos mas cercanos al centro, mientras que su símil logra tener mas sensibilidad entre los puntos vecinos, en general presenta una mejor respuesta Bisecting K-Means, ya que logra identificar de forma muy precisa en el cluster 4 los puntos que engloban a el acuífero en cuestión, sin embargo hay que destacar que el ajuste necesario forzar el agrupamiento a presentar este comportamiento.
 
 \section{Conclusión}\label{sec6}
 
-Conclusions
-
+De acuerdo con los resultados así como los objetivos del trabajo, se puede establecer un análisis cualitativo y cuantitativo de las variables dependientes, su comportamiento así como la relación entre estos, siendo positivo lograr comprender mejor la distribución y estadística de la información que aportan los sondeos, siendo de utilidad para la identificación de anomalías en datos, sin embargo al no lograrse el objetivo de identificar claramente las anomalías y lograr predecirlas, se requerirá de un trabajo extra para lograr este objetivo, así como del entrenamiento del algoritmo IsolationForest, así como implementarlo de forma directa durante una prueba de adquisición para verificar su uso practico.
 
 
 
 \bmhead{Agradecimientos}
 
-Acknowledgments are not compulsory. Where included they should be brief. Grant or contribution numbers may be acknowledged.
-
-Please refer to Journal-level guidance for any specific requirements.
+Agradezco a chuchita por no darse por vencida después de que la bolsearon
 
 
 
-\begin{appendices}
 
-\section{Section title of first appendix}\label{secA1}
-
-An appendix contains supplementary information that is not an essential part of the text itself but which may be helpful in providing a more comprehensive understanding of the research problem or it is information that is too cumbersome to be included in the body of the paper.
 
 %%=============================================%%
 %% For submissions to Nature Portfolio Journals %%
@@ -392,7 +446,6 @@ An appendix contains supplementary information that is not an essential part of 
 %% clutter, break up or be distracting to the text. Appendices can consist of sections, figures, 
 %% tables and equations etc.
 
-\end{appendices}
 
 
 	\begin{thebibliography}{X}\label{sec7}
@@ -415,8 +468,8 @@ An appendix contains supplementary information that is not an essential part of 
 	\bibitem{Gutierrez2013} \textsc{Gutierrez, R. B.,} y \textsc{i Cintas, P. G.}(2013),
 	\textit{El histograma como un instrumento para la comprensión de las funciones de densidad de probabilidad.}, robabilidad Condicionada: Revista de didáctica de la Estadística, 22(3), P, (2), 229-235.
 	
-	 
-	
+	\bibitem{levene1960} \textsc{Levene, H.}(1960),
+	\textit{Robust tests for equality of variances. Contributions to probability and statistics}, r278-292.
 	
 	\end{thebibliography}
 
